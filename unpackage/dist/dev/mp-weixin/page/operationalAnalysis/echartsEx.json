@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "echart示例",
+  "navigationStyle": "custom",
+  "backgroundColorTop": "#256FFF;",
+  "usingComponents": {
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts"
+  }
+}

@@ -1,0 +1,98 @@
+/* ! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */ 
+/* html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+ */
+
+/* @font-face {
+	font-family: uniicons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('~@/static/uni.ttf') format('truetype');
+} */
+body {
+    font-family:PingFangSC-Regular, Microsoft YaHei, Microsoft Sans Serif, Microsoft SanSerf, \\5FAE\8F6F\96C5\9ED1;
+    font-weight: normal;
+    touch-action: manipulation;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@font-face {
+	font-family: "AlternateBold";
+	src: url('~@/static/fonts/AlternateBold.ttf');
+}

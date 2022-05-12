@@ -1,0 +1,1 @@
+<view><block wx:if="{{statusDayOrMonthly=='day'}}"><date-search vue-id="ca853c1c-1" bind:__l="__l"></date-search></block><block wx:if="{{statusDayOrMonthly=='monthly'}}"><month-selech vue-id="ca853c1c-2" bind:__l="__l"></month-selech></block></view>

@@ -1,0 +1,92 @@
+{
+	"pages": [
+		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "page/home/home",
+			"style": {
+				"navigationBarTitleText": "tab1",
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#F6F6F6"
+			}
+		},
+		{
+			"path": "page/user/user",
+			"style": {
+				"navigationBarTitleText": "tab2",
+				"navigationStyle": "custom",
+				"disableScroll": true,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "page/examples/examples",
+			"style": {
+				"navigationBarTitleText": "示例"
+			},
+			"usingComponents": {
+			    "qiun-data-charts": "@qiun-data-charts"
+			}
+		},
+		{
+			"path": "page/examples/ceshi",
+			"style": {
+				"navigationBarTitleText": "示例"
+			}
+		},
+		{
+			"path": "page/examples/dateMonthlySearch",
+			"style": {
+				"navigationBarTitleText": "选择时间"
+			}
+		}
+		
+	],
+	"subPackages": [
+		// 分包一
+		{
+			"root": "subcontract",
+			"pages": [
+				{
+					"path": "pages/page",
+					"style": {
+						"navigationBarTitleText": "分包"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "示例",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		// "navigationStyle":"custom",
+		"app-plus": {
+			"background": "#F0F3F4"
+		}
+
+	},
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FF8D46",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "page/home/home",
+				"iconPath": "static/image/page.png",
+				"selectedIconPath": "static/image/page.png",
+				"text": "tab1"
+			},
+			{
+				"pagePath": "page/user/user",
+				"iconPath": "static/image/page.png",
+				"selectedIconPath": "static/image/page.png",
+				"text": "tab2"
+			}
+		]
+	}
+}

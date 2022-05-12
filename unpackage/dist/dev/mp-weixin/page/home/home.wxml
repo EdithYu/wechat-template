@@ -1,0 +1,1 @@
+<view class="data-v-4586dbc6"><button data-event-opts="{{[['tap',[['goToOperationalAnalysis',['$event']]]]]}}" bindtap="__e" class="data-v-4586dbc6">运营分析</button></view>

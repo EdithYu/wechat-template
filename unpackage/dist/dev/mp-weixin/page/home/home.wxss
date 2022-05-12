@@ -1,0 +1,6 @@
+
+page{
+	background: #F0F3F4 !important;
+	height: 100%;
+}
+

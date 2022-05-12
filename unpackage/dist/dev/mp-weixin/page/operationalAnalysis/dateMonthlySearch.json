@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择时间",
+  "usingComponents": {
+    "date-search": "/components/dateMonthSelection/dateSelection",
+    "month-selech": "/components/dateMonthSelection/monthSelection"
+  }
+}

@@ -1,0 +1,368 @@
+
+page{
+	width: 100%;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top-tab-date.data-v-48bf72ca {
+  display: inline-flex;
+}
+.top-tab.data-v-48bf72ca {
+  background: #256FFF;
+  padding-top: 32rpx;
+  padding-left: 32rpx;
+  height: 320rpx;
+  padding-right: 32rpx;
+}
+.top-tab-date-choose.data-v-48bf72ca {
+  width: 110rpx;
+  height: 64rpx;
+  background: #FFFFFF;
+  border-radius: 4rpx;
+  margin-right: 38rpx;
+}
+.top-tab-date-choose ._p.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #256FFF;
+}
+.top-tab-date-unChoose.data-v-48bf72ca {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4rpx;
+  width: 110rpx;
+  height: 64rpx;
+  margin-right: 38rpx;
+}
+.top-tab-date-unChoose ._p.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #FFFFFF;
+}
+.top-tab-choose-date.data-v-48bf72ca {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4rpx;
+  width: 252rpx;
+  height: 64rpx;
+  float: right;
+}
+.top-tab-choose-date ._p.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #FFFFFF;
+}
+.top-card.data-v-48bf72ca {
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 16rpx 8rpx rgba(0, 0, 0, 0.02);
+  border-radius: 12rpx;
+  position: absolute;
+  top: 144rpx;
+  left: 0;
+  right: 0;
+  padding: 32rpx;
+  padding-bottom: 30rpx;
+  margin: 0 32rpx;
+}
+.top-card .top-card-title.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  letter-spacing: -0.6rpx;
+  color: #828282;
+  margin-bottom: 10rpx;
+}
+.top-card .top-card-price.data-v-48bf72ca {
+  font-family: 'DIN Alternate';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 72rpx;
+  line-height: 84rpx;
+  letter-spacing: -0.6rpx;
+  color: #121A52;
+  margin-bottom: 8rpx;
+}
+.top-card .top-card-price-yesterday.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  letter-spacing: -0.6rpx;
+  color: #828282;
+  margin-bottom: 12rpx;
+}
+.top-card .top-card-price-yesterday .top-card-price-yesterday-red.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  letter-spacing: -0.6rpx;
+  color: #EB5757;
+}
+.top-card .top-card-price-park.data-v-48bf72ca {
+  display: inline-flex;
+}
+.top-card .top-card-price-park .top-card-price-park-arrears.data-v-48bf72ca {
+  height: 50rpx;
+  background: rgba(196, 196, 196, 0.2);
+  border-radius: 4rpx;
+  padding: 0 32rpx;
+  margin-right: 18rpx;
+}
+.top-card .top-card-price-park .top-card-price-park-arrears ._p.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4F4F4F;
+}
+.echars-card-first.data-v-48bf72ca {
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 16rpx 8rpx rgba(0, 0, 0, 0.02);
+  border-radius: 12rpx;
+  height: 544rpx;
+  margin: 122rpx 32rpx 32rpx 32rpx;
+  height: auto;
+}
+.echars-card-first .echars-card-title.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32rpx;
+  line-height: 36rpx;
+  letter-spacing: -0.6rpx;
+  color: #121A52;
+  padding-top: 28rpx;
+  padding-left: 20rpx;
+}
+.turnoverRate-text-trend-month.data-v-48bf72ca {
+  background: rgba(231, 231, 231, 0.3);
+  width: -webkit-fit-content;
+  width: fit-content;
+  border-radius: 8rpx;
+  padding: 10rpx 12rpx 10rpx 12rpx;
+  margin: 10rpx 0rpx 18rpx 22rpx;
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  letter-spacing: -0.6rpx;
+  color: rgba(33, 40, 93, 0.6);
+}
+.turnoverRate-text-trend-month text.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  text-align: center;
+  letter-spacing: -0.6rpx;
+  color: #EB5757;
+}
+.echars-card.data-v-48bf72ca {
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 16rpx 8rpx rgba(0, 0, 0, 0.02);
+  border-radius: 12rpx;
+  height: 544rpx;
+  margin: 0rpx 32rpx 32rpx 32rpx;
+  height: auto;
+}
+.echars-card .echars-card-title.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32rpx;
+  line-height: 36rpx;
+  letter-spacing: -0.6rpx;
+  color: #121A52;
+  padding-top: 28rpx;
+  padding-left: 20rpx;
+}
+.echars-card .echars-card-title-utilizationRate.data-v-48bf72ca {
+  position: absolute;
+  top: 196rpx;
+  left: 48%;
+}
+.echars-card .echars-card-title-utilizationRate .echars-card-title-utilizationRat-p1.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70rpx;
+  line-height: 98rpx;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.echars-card .echars-card-title-utilizationRate .echars-card-title-utilizationRat-p1 text.data-v-48bf72ca {
+  font-family: 'Arial Black';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40rpx;
+  line-height: 58rpx;
+  color: #000000;
+  opacity: 0.2;
+}
+.echars-card .echars-card-title-utilizationRate .echars-card-title-utilizationRat-p2.data-v-48bf72ca {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1D2125;
+}
+.echars-card-flow.data-v-48bf72ca {
+  margin-top: 30rpx;
+  display: inline-flex;
+  margin-left: 26rpx;
+}
+.echars-card-flow .outflow.data-v-48bf72ca {
+  width: 20rpx;
+  height: 20rpx;
+  background: #256FFF;
+  margin-right: 14rpx;
+  margin: auto;
+}
+.echars-card-flow .inflow.data-v-48bf72ca {
+  width: 20rpx;
+  height: 20rpx;
+  background: #F2994A;
+  margin-right: 14rpx;
+  margin: auto;
+}
+.echars-card-flow .flow-title.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  text-align: center;
+  letter-spacing: -0.6rpx;
+  margin-left: 14rpx;
+  margin-right: 10rpx;
+  color: #828282;
+}
+.echars-card-flow .flow-number.data-v-48bf72ca {
+  font-family: 'DIN Alternate';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40rpx;
+  line-height: 46rpx;
+  text-align: center;
+  letter-spacing: -0.6rpx;
+  color: #121A52;
+  margin-right: 58rpx;
+}
+.echars-card-flow-month.data-v-48bf72ca {
+  margin-top: 24rpx;
+  display: inline-flex;
+  margin-left: 26rpx;
+  position: absolute;
+  right: 22rpx;
+}
+.echars-card-flow-month .outflow.data-v-48bf72ca {
+  width: 20rpx;
+  height: 20rpx;
+  background: #256FFF;
+  margin-right: 14rpx;
+  margin: auto;
+}
+.echars-card-flow-month .inflow.data-v-48bf72ca {
+  width: 20rpx;
+  height: 20rpx;
+  background: #bdbdbd;
+  margin-right: 14rpx;
+  margin: auto;
+}
+.echars-card-flow-month .flow-title-p1.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  text-align: center;
+  letter-spacing: -0.6rpx;
+  margin-left: 14rpx;
+  margin-right: 64rpx;
+  color: #828282;
+}
+.echars-card-flow-month .flow-title-p2.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  text-align: center;
+  letter-spacing: -0.6rpx;
+  margin-left: 14rpx;
+  color: #828282;
+}
+.echars-card-flow-month .flow-number.data-v-48bf72ca {
+  font-family: 'DIN Alternate';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40rpx;
+  line-height: 46rpx;
+  text-align: center;
+  letter-spacing: -0.6rpx;
+  color: #121A52;
+  margin-right: 58rpx;
+}
+.turnoverRate-text.data-v-48bf72ca {
+  font-family: 'PingFang HK';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  letter-spacing: -0.6rpx;
+  margin: 20rpx 0rpx 18rpx 22rpx;
+  color: #828282;
+}
+

@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "page/home/home",
+        "page/user/user",
+        "page/operationalAnalysis/operationalAnalysis",
+        "page/operationalAnalysis/echartsEx",
+        "page/operationalAnalysis/dateMonthlySearch"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTitleText": "商户",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#FF8D46",
+        "borderStyle": "black",
+        "backgroundColor": "#F8F8F8",
+        "list": [
+            {
+                "pagePath": "page/home/home",
+                "iconPath": "static/image/page.png",
+                "selectedIconPath": "static/image/page.png",
+                "text": "停车"
+            },
+            {
+                "pagePath": "page/user/user",
+                "iconPath": "static/image/page.png",
+                "selectedIconPath": "static/image/page.png",
+                "text": "停车"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "获取当前位置"
+        }
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "停车",
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}
