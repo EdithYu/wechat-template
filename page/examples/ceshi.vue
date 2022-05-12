@@ -1,29 +1,34 @@
 <template>
-	<view style="display: flex;flex-direction: column;height: 100%;overflow: hidden;">
-		<view class="status-bar">
-			<view style="flex: 1;position: relative;" v-for="(item,index) in statusList" :key="index"
-				:class="current==index&&'active'" @click="statusClick(index)
-			">{{item}}</view>
-		</view>
-		<swiper :current="current" @change="_handleChange" class="swiperHeight">
-			<swiper-item v-for="(item , index) in cards" :key="index">
-				<my-scroll-view class="scroll" ref="fresh" @refresh="onRefresh" @lowerRefresh="lowerRefresh">
-					<view class="listContainer">
-						<!-- 无数据背景 -->
-						<view v-if="isNoData[current]" class="container">
-							<view class="noCarStyle">
-								<image src="../../static/image/noOrder.png" style="width: 100%;" mode="widthFix">
-								</image>
-								<view class="nocarText">暂无订单信息</view>
+	<view>
+		<view style="display: flex;flex-direction: column;height: 100%;overflow: hidden;">
+			<view class="status-bar">
+				<view style="flex: 1;position: relative;" v-for="(item,index) in statusList" :key="index"
+					:class="current==index&&'active'" @click="statusClick(index)
+				">{{item}}</view>
+			</view>
+			<swiper :current="current" @change="_handleChange" class="swiperHeight">
+				<swiper-item v-for="(item , index) in cards" :key="index">
+					<my-scroll-view class="scroll" ref="fresh" @refresh="onRefresh" @lowerRefresh="lowerRefresh">
+						<view class="listContainer">
+							<!-- 无数据背景 -->
+							<view v-if="isNoData[current]" class="container">
+								<view class="noCarStyle">
+									<image src="../../static/image/noOrder.png" style="width: 100%;" mode="widthFix">
+									</image>
+									<view class="nocarText">暂无订单信息</view>
+								</view>
+							</view>
+							<view v-else v-for="(item2,index2) in item" :key="index2">
+								数据
 							</view>
 						</view>
-						<view v-else v-for="(item2,index2) in item" :key="index2">
-							数据
-						</view>
-					</view>
-				</my-scroll-view>
-			</swiper-item>
-		</swiper>
+					</my-scroll-view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			
+		</view>
 	</view>
 </template>
 
