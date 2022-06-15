@@ -7,7 +7,7 @@
 + pages ----页面
 + static 
    + image  ----图片
-+ utils ----通用方法
++ utils ----通用方法（全局封装请求等）
 + components ---组件
 + subcontract ---分包
    + pages ----分包页面
@@ -16,6 +16,8 @@
 + api
    + config.js --- 请求地址统一配置
 + main.js --- 全局配置
++ store
+   + index.js --- 全局存储
   
 
 ### 组件
