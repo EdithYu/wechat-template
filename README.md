@@ -15,6 +15,8 @@
       + image  ----图片
 + api
    + config.js --- 请求地址统一配置
++ main.js --- 全局配置
+  
 
 ### 组件
 <br>
@@ -23,6 +25,8 @@
 2.my-scroll-view ---可滑动区域和tab组合使用，具体可看示例代码
 <br><br>
 3.uQRCode ---二维码展示
+<br><br>
+4.tab ---tab切换，不可滑动
 
 
 ### h5调试
