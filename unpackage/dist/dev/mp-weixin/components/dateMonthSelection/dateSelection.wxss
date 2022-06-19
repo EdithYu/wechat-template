@@ -42,6 +42,10 @@ page{
   height: 64rpx;
   background: #F6F5FA;
   display: flex;
+  position: fixed;
+  width: -webkit-fill-available;
+  top: 0px;
+  z-index: 998;
 }
 .dateTitle ._p.data-v-53488d24 {
   width: 20%;
@@ -106,5 +110,8 @@ page{
 }
 .date-view-date .date-view-date-list.data-v-53488d24:nth-child(n + 8) {
   margin-top: 32rpx;
+}
+.date-view-date-choose.data-v-53488d24 {
+  color: #3874F6 !important;
 }
 

@@ -1,8 +1,9 @@
 <template>
 	<view>
 		<button style="margin-top: 32rpx;" @click="goToOperationalAnalysis">示例</button>
-		<button style="margin-top: 32rpx;" @click="goToEcharts">图表示例</button>
+		<button style="margin-top: 32rpx;" @click="goToEcharts">图表示例12366</button>
 		<button style="margin-top: 32rpx;" @click="goToDate">选择时间日历示例</button>
+		<button style="margin-top: 32rpx;" @click="goToLogin">登陆</button>ß
 	</view>
 </template>
 
@@ -38,6 +39,11 @@
 				uni.navigateTo({
 					url:"../examples/examples"
 				})
+			},
+			goToLogin(){
+				uni.navigateTo({
+					url:"../login/login"
+				})
 			}
 		},
 		
@@ -45,7 +51,7 @@
 </script>
 <style>
 	page{
-		background: #F0F3F4 !important;
+		background: #FFFFFF !important;
 		height: 100%;
 	}
 </style>
